@@ -60,6 +60,10 @@ circle {
   border-style: solid;
   border-color: blue;
 }
+.square:first-child,
+.square:last-child {
+  cursor: pointer;
+}
 img {
   max-width: 450px;
 }
@@ -80,5 +84,6 @@ button {
   width: 75px;
   height: 25px;
   margin: 10px;
+  cursor: pointer;
   transition: background-color 0.2s ease-in-out;
 }
