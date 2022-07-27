@@ -71,7 +71,14 @@ img {
 }
 .bichoImg {
   display: flex;
-  /* max-height: 400px; */
-  /* display: flex; */
-  /* max-width: 500px; */
+}
+button {
+  background-color: #0d8e67;
+  color: beige;
+  font-weight: 700;
+  border-radius: 25px;
+  width: 75px;
+  height: 25px;
+  margin: 10px;
+  transition: background-color 0.2s ease-in-out;
 }
