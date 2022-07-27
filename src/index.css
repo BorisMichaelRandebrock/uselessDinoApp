@@ -19,11 +19,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+p {
+  display: flex;
+  width: auto;
+  padding: 20px;
+  text-align: center;
+}
 circle {
   background-color: #f1c231;
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   margin: 10px;
   transition: background-color 0.2s ease-in-out;
 }
@@ -40,7 +46,7 @@ circle {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 500px;
+  width: 375px;
   align-content: center;
 }
 
@@ -55,11 +61,17 @@ circle {
   border-color: blue;
 }
 img {
-  max-width: 700px;
+  max-width: 450px;
 }
 .squares {
   display: flex;
   align-items: center;
   flex-direction: row;
   margin-top: 44px;
+}
+.bichoImg {
+  display: flex;
+  /* max-height: 400px; */
+  /* display: flex; */
+  /* max-width: 500px; */
 }

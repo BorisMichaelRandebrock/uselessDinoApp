@@ -57,8 +57,10 @@ const App = (): JSX.Element => {
     <>
       <h2>{bicho.name}</h2>
       <button onClick={trexToHappy}> 2 happy</button>
-      <p>a vaery angry t-rex,... but really, he is a very cudly thingy.</p>
-      <img src={bicho.imageSource} alt={bicho.alternativeText} />
+      <p>a very angry t-rex,... but really, he is a rather cudly thingy.</p>
+      <div className="bichoImg">
+        <img src={bicho.imageSource} alt={bicho.alternativeText} />
+      </div>
       <section className="circles">
         <div className="circled">
           {circles.map((circle, position) => (
