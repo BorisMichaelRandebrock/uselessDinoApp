@@ -1,0 +1,9 @@
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+.circle--active {
+  background-color: #f1c232;
+}

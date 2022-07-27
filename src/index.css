@@ -1,0 +1,65 @@
+div#root {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  width: 700px;
+  justify-content: center;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+circle {
+  background-color: #f1c231;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  transition: background-color 0.2s ease-in-out;
+}
+.circles {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  margin: 50px;
+}
+.circled {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 500px;
+  align-content: center;
+}
+
+.square {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-color: blue;
+}
+img {
+  max-width: 700px;
+}
+.squares {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 44px;
+}
