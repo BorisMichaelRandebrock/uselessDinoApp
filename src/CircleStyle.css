@@ -3,6 +3,7 @@
   height: 75px;
   border-radius: 50%;
   background-color: #ccc;
+  cursor: pointer;
 }
 .circle--active {
   background-color: #f1c232;
