@@ -65,13 +65,13 @@ circle {
   cursor: pointer;
 }
 img {
-  max-width: 450px;
+  max-width: 390px;
 }
 .squares {
   display: flex;
   align-items: center;
   flex-direction: row;
-  margin-top: 44px;
+  margin-top: 15px;
 }
 .bichoImg {
   display: flex;
