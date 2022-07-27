@@ -72,7 +72,7 @@ const App = (): JSX.Element => {
           ))}
         </div>
       </section>
-      <Button text="Click me" actionOnClick={() => console.log("clicked")} />
+      <Button text="Click me" actionOnClick={() => alert("tickle me...🥰")} />
       <div className="squares">
         <Square actionOnClick={() => decrementNumber()} symbol="<<" />
         <Square number={numbers[0]} />
