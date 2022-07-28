@@ -1,18 +1,11 @@
 interface ButtonProps {
   text: string;
   actionOnClick: () => void;
-  // type: string;
 }
 
-const Button = ({
-  actionOnClick,
-  text /*, type*/,
-}: ButtonProps): JSX.Element => {
+const Button = ({ actionOnClick, text }: ButtonProps): JSX.Element => {
   return (
-    <button
-      className="button button--select"
-      onClick={actionOnClick} /*type={(type === "sum" ? "+" : "-")}*/
-    >
+    <button className="button button--select" onClick={actionOnClick}>
       {text}
     </button>
   );

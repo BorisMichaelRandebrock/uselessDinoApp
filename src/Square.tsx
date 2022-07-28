@@ -1,3 +1,5 @@
+import "./SquareStyle.css";
+
 interface SquareProps {
   number?: number;
   actionOnClick?: () => void;
