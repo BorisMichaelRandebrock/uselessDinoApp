@@ -48,3 +48,8 @@ div#root {
 main.main-content {
   display: contents;
 }
+.bichoImg + button {
+  position: absolute;
+  left: 253px;
+  top: 396px;
+}

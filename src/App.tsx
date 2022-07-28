@@ -64,7 +64,7 @@ const App = (): JSX.Element => {
         <img src={bicho.imageSource} alt={bicho.alternativeText} />
       </div>
 
-      <Button text="Click me" actionOnClick={() => toast("tickle me ... 🥹!")} />
+      <Button text="Roaarrr" actionOnClick={() => toast("tickle me ... 🥹!")} />
       <div className="squares">
         <Square actionOnClick={() => decrementNumber()} symbol="<<" />
         <Square number={numbers[0]} />
