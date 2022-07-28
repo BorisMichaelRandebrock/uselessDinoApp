@@ -49,7 +49,7 @@ main.main-content {
   display: contents;
 }
 .bichoImg + button {
-  position: absolute;
-  left: 253px;
-  top: 396px;
+  position: relative;
+  left: 124px;
+  top: -110px;
 }
