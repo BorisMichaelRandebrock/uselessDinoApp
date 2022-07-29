@@ -23,4 +23,5 @@
   align-items: center;
   width: 375px;
   align-content: center;
+  flex-wrap: wrap;
 }
