@@ -27,10 +27,12 @@ p {
 }
 
 img {
-  max-width: 390px;
+  max-width: 90%;
 }
 .bichoImg {
   display: flex;
+  justify-content: center;
+  max-width: 800px;
 }
 button {
   background-color: #0d8e67;
