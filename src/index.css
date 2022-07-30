@@ -36,12 +36,12 @@ img {
 }
 button {
   background-color: #0d8e67;
-  color: beige;
-  font-weight: 700;
+  color: whitesmoke;
+  font-weight: 900;
+  font-size: 1.4rem;
   border-radius: 25px;
-  width: 75px;
-  height: 25px;
+  width: 100px;
+  height: 40px;
   margin: 10px;
   cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
 }
