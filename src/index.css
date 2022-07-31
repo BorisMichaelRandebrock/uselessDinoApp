@@ -38,10 +38,10 @@ button {
   background-color: #0d8e67;
   color: whitesmoke;
   font-weight: 900;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   border-radius: 25px;
   width: 100px;
   height: 40px;
-  margin: 10px;
+  /* margin: 10px; */
   cursor: pointer;
 }
