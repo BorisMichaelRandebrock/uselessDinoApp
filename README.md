@@ -1,6 +1,7 @@
 # Useless Dino App
 
 It shows an angry T-rex, which actually is only requesting some tickles as he feels lonely
+https://useless-dino-app.netlify.app
 
 ## circles 
 
