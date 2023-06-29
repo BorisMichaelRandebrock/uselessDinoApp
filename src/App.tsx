@@ -12,7 +12,7 @@ const App = (): JSX.Element => {
     imageSource:
       "https://dinoworldexpo.com/wp-content/uploads/2022/01/dino-cartel-white.png",
     alternativeText: " angry t-rex",
-    text: "this is a very angry T-rex... but if you tickle it...",
+    text: "this looks like a very angry T-rex... but if you tickle it...",
   };
   let [bicho, setBicho] = useState(bichoInicial);
 
